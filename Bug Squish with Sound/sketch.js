@@ -135,7 +135,7 @@ function mousePressed() {
             
             
             if (animations[i].spritesheet === spriteSheets[game.targetSprite]){
-              background_music.speed(2);
+//               background_music.speed(2);
               sample2.play();
               game.score -= 1;
               // game.speed +=1;
